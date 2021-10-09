@@ -1,7 +1,3 @@
-jQuery.validator.addMethod("usPhoneFormat", function(value, element) {
-    return this.optional(element) || /[\+]\d{1}[\(]\d{3}[\)]\d{3}[\-]\d{4}/.test(value);
-}, "Enter a valid phone number.");
-
 $(window).load(function() {
     if ($(window).width() < 992) {
         $('.mobowl').addClass('owl-carousel')
